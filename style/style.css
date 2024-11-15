@@ -1,0 +1,244 @@
+/* Configuración general */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #7a1c1c; /* Rojo oscuro festivo */
+    color: #f8f5f2; /* Blanco cálido */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #b32424; /* Rojo navideño */
+    padding: 15px;
+}
+
+.navbar-brand {
+    color: #ffd700;
+    font-family: 'Great Vibes', cursive;
+    font-size: 24px;
+}
+
+.nav-link {
+    font-family: 'Great Vibes', cursive;
+    text-align: left;
+    font-size: 25px;
+    padding: 0 15px;
+    color:#ccc;
+}
+
+.nav-link:hover {
+    color: #00631b; /* Dorado */
+    transition: color 0.3s;
+}
+
+/* Header (Jumbotron) */
+.jumbotron {
+    background-position: center;
+    color: #e0d0a5; /* Amarillo dorado */
+    text-shadow: 1px 1px 5px rgba(156, 22, 7, 0.5);
+    font-family: 'Great Vibes', cursive;
+    font-size: 85px;
+    padding: 100px 20px;
+    text-align: center;
+    background-color: #7a1c1c; /* Color rojo oscuro */
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron h1 {
+    margin-top: -70px;
+    margin-bottom: 48px;
+    font-size: 75px;
+    font-weight: bold;
+    transition: color 2s ease;
+}
+
+.jumbotron h1:hover {
+    color: #d0a22e;
+    transition: 2s;
+}
+
+.jumbotron p {
+    font-size: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.papanoel{
+    weight: 250px;
+    height: 250px;
+    margin-top: -35px;
+}
+
+
+#about p {
+    font-size: 18px;
+    color: #ccc;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Configuración de las cajas en la sección "Acerca de" */
+.about-box {
+    background-color: #b32424;
+    border: 1px solid #ffd700; /* Borde dorado */
+    padding: 40px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-align: center;
+    height: 100%;
+}
+
+/* Alineación de las cajas en un diseño de columnas */
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.col-md-4 {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding: 20px;
+}
+
+.about-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(72, 175, 69, 0.3); /* Sombra dorada */
+}
+
+.about-box i {
+    font-size: 48px;
+    color: #dfbe54;
+    margin-bottom: 20px;
+}
+
+.about-box h5 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+/* Sección "Productos" */
+.product-card {
+    background-color: #b32424;
+    color: #f8f5f2;
+    padding: 20px;
+    border: 1px solid #ffd700;
+    margin: 10px 0;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(255, 215, 0, 0.3);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-card h5 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.product-card p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.product-card .btn {
+    font-size: 16px;
+    background-color:#d0a22e;
+    border: none;
+    color: #800808;
+    padding: 10px;
+    width: 100%;
+}
+
+.product-card .btn:hover {
+    background-color: #97ee68; /* Dorado claro */
+    color: #802e2e;
+    transition: background-color 0.3s;
+}
+
+/* Footer */
+footer {
+    background-color: #30671c; /* Negro profundo */
+    color: #f8f5f2;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #f8f5f2;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+footer a:hover {
+    color: #ffd700;
+}
+
+/* Iconos de redes sociales en el footer */
+footer .fa {
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+/* Tipografía específica para Navidad */
+.navidad {
+    font-family: 'Great Vibes', cursive;
+    color: #ffe49d;
+    font-size: 45px;
+    text-align: left;
+}
+
+.moño{
+    margin-top: -140px;
+}
+
+.pregunta{
+    text-align: center;
+    margin-left: 2px;
+    margin-top: -25px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 60px;
+
+}
+
+.respuesta{
+    text-align: center;
+    margin-left: 2px;
+    margin-top: -18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color:#eeecd2;
+}
+
+.barra{
+    margin-top: -40px;
+    font-size: 40px;
+}
+
+.text-white{
+    font-size: 40px;
+    margin-bottom: -80px;
+
+}
+
+.copia{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text-center{
+    font-family: 'Great Vibes', cursive;
+}
